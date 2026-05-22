@@ -9,24 +9,24 @@ class Yolomancer < Formula
   on_macos do
     on_arm do
       url "https://github.com/dennisvink/yolomancer/releases/download/#{release_tag}/yolomancer-darwin-arm64-#{version}"
-      sha256 :no_check
+      sha256 "b801a19ef853d7b1c4fcfc8a5ce8be67da11317fab2d76f9d03a52c07aa91c55"
     end
 
     on_intel do
       url "https://github.com/dennisvink/yolomancer/releases/download/#{release_tag}/yolomancer-darwin-amd64-#{version}"
-      sha256 :no_check
+      sha256 "8cff26d5bf4aa66c478a1914fcb5337d05085f559164a5942744ec882fa72133"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dennisvink/yolomancer/releases/download/#{release_tag}/yolomancer-linux-amd64-#{version}"
-      sha256 :no_check
+      sha256 "ae2cfcbb88fa163575028e4f0c535be64a611c1d942af00cc0c16343d1fb83fc"
     end
 
     on_arm do
       url "https://github.com/dennisvink/yolomancer/releases/download/#{release_tag}/yolomancer-linux-arm64-#{version}"
-      sha256 :no_check
+      sha256 "6140376a714d27bbac79596b36295e81b13fbc00c94f4ed96f0f1170ae216b61"
     end
   end
 
